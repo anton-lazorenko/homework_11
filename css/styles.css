@@ -560,21 +560,21 @@
 .footer-wrapper {
   width: 1440px;
   margin: 0 auto;
-}
-.footer-wrapper .footer {
   min-height: 563.12px;
-  background: #f7f7f7;
+  background: #F8F8F8;
 }
-.footer-wrapper .all-footer-items {
+
+.all-footer-items {
   display: flex;
   justify-content: space-around;
   padding-top: 178px;
 }
-.footer-wrapper .footer-logo-items {
+
+.footer-logo-items {
   position: relative;
   right: 29px;
 }
-.footer-wrapper .footer-logo-items span {
+.footer-logo-items span {
   position: relative;
   bottom: 12px;
   color: #0B132A;
@@ -583,17 +583,19 @@
   padding-left: 5px;
   letter-spacing: 0.7px;
 }
-.footer-wrapper .footer-logo-items svg {
+.footer-logo-items svg {
   position: relative;
   cursor: not-allowed;
 }
-.footer-wrapper .footer-logo-items svg:hover {
+.footer-logo-items svg:hover {
   filter: grayscale(1) blur(2px);
 }
-.footer-wrapper .main {
+
+.main {
   margin-bottom: -115px;
 }
-.footer-wrapper .text-under-footers-logo {
+
+.text-under-footers-logo {
   width: 340px;
   height: 61.573px;
   color: #4F5665;
@@ -604,7 +606,8 @@
   padding-right: 72px;
   letter-spacing: -0.1px;
 }
-.footer-wrapper .icon {
+
+.icon {
   display: flex;
   gap: 20px;
   fill: #F53838;
@@ -612,13 +615,15 @@
   padding-left: 2px;
   padding-bottom: 29px;
 }
-.footer-wrapper .fill-icon {
+
+.fill-icon {
   width: 33.6px;
   height: 33.6px;
   background-color: #fff;
   border-radius: 50%;
 }
-.footer-wrapper .icon .icon-media {
+
+.icon .icon-media {
   width: 18px;
   height: 18px;
   display: block;
@@ -627,14 +632,16 @@
   padding-right: 2px;
   cursor: pointer;
 }
-.footer-wrapper .footer-list-items {
+
+.footer-list-items {
   display: flex;
 }
-.footer-wrapper .footer-list-items ul {
+.footer-list-items ul {
   list-style-type: none;
   padding: 0;
 }
-.footer-wrapper .label {
+
+.label {
   color: #AFB5C0;
   text-align: center;
   font-size: 16px;
@@ -642,7 +649,8 @@
   line-height: 30px;
   padding-right: 280px;
 }
-.footer-wrapper .product-list {
+
+.product-list {
   position: relative;
   right: 226px;
   bottom: 20px;
@@ -652,7 +660,8 @@
   line-height: 40px;
   animation: bounce-in-right 10s ease 10s infinite;
 }
-.footer-wrapper .product-heading {
+
+.product-heading {
   position: relative;
   bottom: 2px;
   color: #0B132A;
@@ -660,7 +669,8 @@
   font-weight: 500;
   line-height: 50px;
 }
-.footer-wrapper .engage-list {
+
+.engage-list {
   position: relative;
   bottom: 20px;
   right: 100px;
@@ -670,7 +680,8 @@
   line-height: 40px;
   animation: bounce-in-right 10s ease 10s infinite;
 }
-.footer-wrapper .engage-heading {
+
+.engage-heading {
   position: relative;
   bottom: 2px;
   color: #0B132A;
@@ -678,7 +689,8 @@
   font-weight: 500;
   line-height: 50px;
 }
-.footer-wrapper .earn-money-list {
+
+.earn-money-list {
   position: relative;
   left: 26px;
   bottom: 18px;
@@ -688,7 +700,8 @@
   line-height: 40px;
   animation: bounce-in-right 10s ease 10s infinite;
 }
-.footer-wrapper .earn-money-heading {
+
+.earn-money-heading {
   position: relative;
   bottom: 5px;
   color: #0B132A;
@@ -696,7 +709,8 @@
   font-weight: 500;
   line-height: 50px;
 }
-.footer-wrapper .refresh {
+
+.refresh {
   width: 200px;
   height: 100px;
   position: relative;
