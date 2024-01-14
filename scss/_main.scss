@@ -5,6 +5,8 @@ body {
     margin: 0;
 }
 
+$sections-background: #fff;
+
 .wrapper__first-section {
     width: 1440px;
     margin: 0 auto;
@@ -416,7 +418,7 @@ body {
     .columns__first {
         border-radius: 10px;
         border: 2px solid #DDD;
-        background: #FFF;
+        background: $sections-background;
         width: 328px;
         min-height: 760px;
         -webkit-animation: 0.3s grad-column ease-in forwards;

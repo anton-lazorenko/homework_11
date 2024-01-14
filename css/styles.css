@@ -1061,7 +1061,7 @@ body {
 .wrapper__second-section .columns__first {
   border-radius: 10px;
   border: 2px solid #DDD;
-  background: #FFF;
+  background: #fff;
   width: 328px;
   min-height: 760px;
   -webkit-animation: 0.3s grad-column ease-in forwards;
