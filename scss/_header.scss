@@ -1,0 +1,61 @@
+
+.header-wrapper {
+    width: 1440px;
+    margin: 0 auto;
+
+    .header-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px 150px 0 150px;
+        padding-left: 35px;
+    }
+
+    & svg {
+        position: absolute;
+        transform: translateX(-571px);
+        cursor: pointer;
+        -webkit-animation: 20s logo linear 2s infinite;
+    }
+
+    .logo-name {
+        display: flex;
+        font-weight: 500;
+        font-size: 20px;
+        padding-left: 12px;
+        cursor: pointer;
+    }
+
+    .header-item-list {
+        color: #4F5665;
+        font-size: 16px;
+        font-weight: 400;
+        display: flex;
+        gap: 40px;
+        list-style-type: none;
+        padding: 0 150px 0 157px;
+        cursor: pointer;
+    }
+
+    .sign-in {
+        width: 60px;
+        font-size: 16px;
+        font-weight: 500;
+        padding-right: 30px;
+        cursor: pointer;
+    }
+
+    .signup-button {
+        position: relative;
+        background-color: #fff;
+        color: #F53855;
+        width: 160px;
+        height: 45px;
+        border-radius: 50px;
+        border: 1px solid #F53855;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        -webkit-animation: 1.6s signup linear forwards;
+    }
+}
